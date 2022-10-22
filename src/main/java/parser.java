@@ -49,8 +49,5 @@ public class parser {
 
         }
 
-
-
-        //System.out.println(getPage("    Явления    Температура    Давл    Влажность    Ветер"));
     }
 }
