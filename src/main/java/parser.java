@@ -28,6 +28,7 @@ public class parser {
             System.out.println();
         }
     }
+
     private static Document getPage() throws IOException {
         String url = "http://www.pogoda.spb.ru/";
         Document page = Jsoup.parse(new URL(url),3000);
