@@ -35,7 +35,7 @@ public class parser {
     }
     public static void main(String[] args) throws Exception {
         Document page = getPage();
-
+        String s="1";
         Element tableWth = page.select("table[class=wt]").first();
         Elements names = tableWth.select("tr[class=wth]");
         Elements values = tableWth.select("tr[valign=top]");
